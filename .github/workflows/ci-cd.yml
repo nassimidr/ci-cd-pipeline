@@ -10,7 +10,7 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
 
-    steps:
+    steps:   
       # 1️⃣ Récupérer le code source
       - name: Checkout code
         uses: actions/checkout@v3
